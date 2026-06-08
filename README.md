@@ -1,0 +1,205 @@
+# 🔬 Science Research Writing — AI Writing Assistant
+
+> **Your personal AI coach for STEMM research papers. Not a knowledge base — an active writing partner that drafts, revises, reviews, and guides.**
+
+Built on Hilary Glasman-Deal's *"Science Research Writing: For Native and Non-Native Speakers of English"* (2nd Ed., Imperial College London), this skill transforms the book's frameworks into an **actionable writing assistant** for Claude Code and CodeX.
+
+---
+
+## ✨ What This Skill Does
+
+| Mode | Trigger | You Get |
+|------|---------|---------|
+| 🔧 **Revise & Polish** | Paste your draft text | Improved text with annotated changes |
+| ✍️ **Draft from Notes** | Provide raw data / bullet points / claims | Structured section draft following generic models |
+| 🔍 **Diagnostic Review** | Ask for a review | Audit report with severity ratings + specific fixes |
+| 🧪 **Reverse-Engineer** | Provide published article text | Reusable writing model + vocabulary bank |
+| 🗺️ **Interactive Guide** | "Help me write my [section]" | Step-by-step walk-through for each component |
+
+### 🎯 Covers All Paper Sections
+
+Abstract · Introduction · Methods · Results · Discussion · Conclusion · Title
+
+### 🧠 Key Frameworks Applied
+
+- **Generic Writing Models** — proven sentence-function templates for each section
+- **Certainty Continuum** — match verb strength to evidence level (never overclaim or underclaim)
+- **Verb Tense Strategy** — tense as a signal of information status and confidence
+- **Narrative Wrap** — scaffold your data with meaning so readers can't misunderstand
+- **Achievement vs. Contribution** — trackable internal success + outward-facing impact
+- **Sentence Linking** — this/these + noun, repetition linkage, signal words
+- **Evaluative Comments** — no naked numbers; every data point gets commentary
+- **Pre-submission Checklist** — 10-point audit before you submit
+
+---
+
+## 📦 Installation
+
+### Claude Code
+
+**Method 1: One-click install**
+
+Paste this into Claude Code:
+
+```
+/install-skill <path-to-this-project>
+```
+
+**Method 2: Manual install**
+
+Copy the entire project folder to your Claude Code skills directory:
+
+```bash
+# Windows (PowerShell) — replace <path> with your project location
+$path = "<path>\Science-Research-Writing-Skills"
+Copy-Item -Recurse $path "$env:USERPROFILE\.claude\skills\Science-Research-Writing-Skills"
+
+# macOS / Linux
+cp -r /path/to/Science-Research-Writing-Skills ~/.claude/skills/Science-Research-Writing-Skills
+```
+
+**Method 3: Symlink (stay up to date)**
+
+```bash
+# macOS / Linux
+ln -s /path/to/Science-Research-Writing-Skills ~/.claude/skills/Science-Research-Writing-Skills
+
+# Windows (PowerShell, as Admin) — replace <path> with your project location
+$target = "<path>\Science-Research-Writing-Skills"
+New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\skills\Science-Research-Writing-Skills" -Target $target
+```
+
+Then restart Claude Code.
+
+### CodeX
+
+**Method 1: Via the CodeX marketplace**
+
+```
+/extensions install Science-Research-Writing-Skills
+```
+
+**Method 2: Manual install**
+
+Copy the project folder to your CodeX skills directory:
+
+```bash
+# Windows (PowerShell) — replace <path> with your project location
+$path = "<path>\Science-Research-Writing-Skills"
+Copy-Item -Recurse $path "$env:APPDATA\CodeX\skills\Science-Research-Writing-Skills"
+
+# macOS / Linux
+cp -r /path/to/Science-Research-Writing-Skills ~/.codex/skills/Science-Research-Writing-Skills
+```
+
+---
+
+## 🚀 Usage
+
+Invoke the skill with `/Science-Research-Writing-Skills` followed by your request. The assistant auto-detects what you need:
+
+### 🔧 Revise & Polish
+
+```
+/Science-Research-Writing-Skills
+Here's my Introduction — polish it:
+
+[your draft text]
+```
+
+### ✍️ Draft from Notes
+
+```
+/Science-Research-Writing-Skills
+Write the Results section. Here's what we found:
+- XRD showed crystalline phase at 600°C
+- Tensile strength increased by 40% with 5wt% filler
+- SEM images showed uniform dispersion
+```
+
+### 🔍 Diagnostic Review
+
+```
+/Science-Research-Writing-Skills
+Review my Discussion section:
+
+[your draft text]
+```
+
+### 🧪 Reverse-Engineer a Target Article
+
+```
+/Science-Research-Writing-Skills
+Analyze this Introduction from a Nature Materials paper:
+
+[paste the Introduction text from the published article]
+```
+
+### 🗺️ Interactive Guide
+
+```
+/Science-Research-Writing-Skills
+Help me write my Abstract. My paper is about...
+```
+
+> 💡 **Pro tip**: You can also use shorthand — just describe what you need and paste your text. The assistant figures out the right mode.
+
+---
+
+## 📂 Project Structure
+
+```
+Science-Research-Writing-Skills/
+├── SKILL.md                    # Main skill definition + operating instructions
+├── cheatsheet.md               # Quick audit checklists + fix guides
+├── patterns.md                 # 8 writing patterns with application steps
+├── glossary.md                 # Key terms defined
+├── references/                 # Detailed reference files (read on demand)
+│   ├── 00-introduction-writing-for-a-reader.md
+│   ├── 01-writing-the-introduction.md
+│   ├── 02-writing-about-methods.md
+│   ├── 03-writing-about-results.md
+│   ├── 04-writing-the-discussion.md
+│   ├── 05-writing-the-conclusion.md
+│   ├── 06-writing-the-abstract.md
+│   ├── 07-writing-the-title.md
+│   ├── 08-checklist-and-tips.md
+│   ├── appendix-a-prefixes-in-science-writing.md
+│   └── appendix-b-research-verbs.md
+├── README.md                   # This file
+└── README_zh.md                # 中文说明
+```
+
+---
+
+## 📖 Based On
+
+**Glasman-Deal, H.** (2021). *Science Research Writing: For Native and Non-Native Speakers of English* (2nd ed.). Imperial College Press.
+
+The book's frameworks, models, and techniques have been extracted, organized, and transformed into an interactive AI assistant. All writing principles are grounded in the analysis of thousands of successfully published STEMM research articles.
+
+---
+
+## 🎓 Who This Is For
+
+- 📝 **Graduate students** writing their first paper
+- 🔬 **Postdocs & researchers** who want to write faster and better
+- 🌍 **Non-native English speakers** navigating English-language science publishing
+- 📊 **Anyone in STEMM** (Science, Technology, Engineering, Mathematics, Medicine) who wants their papers accepted at higher rates
+
+---
+
+## ⚙️ Platform Support
+
+| Platform | Status |
+|----------|--------|
+| 🖥️ Claude Code (CLI) | ✅ Full support |
+| 🖥️ Claude Code (Desktop App) | ✅ Full support |
+| 💻 Claude Code (IDE extensions) | ✅ Full support |
+| 🔧 CodeX | ✅ Full support |
+
+---
+
+<p align="center">
+  <sub>🤖 Built for the AI-assisted science writing era. Based on evidence, not guesses.</sub>
+</p>
