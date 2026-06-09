@@ -1,5 +1,7 @@
 # 🔬 Science Research Writing — AI Writing Assistant
 
+[中文版](./README_zh.md)
+
 > **Your personal AI coach for STEMM research papers. Not a knowledge base — an active writing partner that drafts, revises, reviews, and guides.**
 
 Built on Hilary Glasman-Deal's *"Science Research Writing: For Native and Non-Native Speakers of English"* (2nd Ed., Imperial College London), this skill transforms the book's frameworks into an **actionable writing assistant** for Claude Code and CodeX.
