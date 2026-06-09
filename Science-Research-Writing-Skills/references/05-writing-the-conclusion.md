@@ -1,4 +1,4 @@
-# Unit 5: How to Write the Conclusion
+# How to Write the Conclusion
 
 ## Core Idea
 The Conclusion section (sometimes called Conclusions) distills the study into a self-contained take-home message. It should function as an independent mini-document, as many readers go directly from Abstract to Conclusion without reading the full paper.
@@ -22,14 +22,14 @@ The Conclusion section (sometimes called Conclusions) distills the study into a 
 **Key usage note**: Map these 11 components onto your target articles to see typical order and proportion. Not all components appear in every Conclusion.
 
 ## Language Guidance
-All components draw on language already introduced in previous Units:
-- Components 1–3: See Units 1 and 2
-- Component 4: See Unit 1
-- Component 5: See Units 1 and 2
-- Component 6: See Unit 3 (Certainty Continuum)
-- Component 7: See Units 3 and 4
-- Components 8–9: See Unit 4
-- Components 10–11: See Unit 4
+All components draw on language already introduced in previous sections:
+- Components 1–3: See Writing the Introduction and Writing about Methods
+- Component 4: See Writing the Introduction
+- Component 5: See Writing the Introduction and Writing about Methods
+- Component 6: See Writing about Results (Certainty Continuum)
+- Component 7: See Writing about Results and Writing the Discussion
+- Components 8–9: See Writing the Discussion
+- Components 10–11: See Writing the Discussion
 
 ## Anti-patterns
 - **Copy-pasting the Abstract**: The Conclusion serves a different purpose — it focuses on what was achieved and what it means going forward
@@ -44,6 +44,6 @@ All components draw on language already introduced in previous Units:
 5. Be specific about contribution and impact — avoid generic "this work is important" statements
 
 ## Connects To
-- **Ch 4 (Discussion)**: Conclusion distills the Discussion; avoid duplicating
-- **Ch 6 (Abstract)**: Abstract is the entry point; Conclusion is the exit point
-- **Ch 8 (Checklist)**: Overall writing quality checklist
+- **Writing the Discussion**: Conclusion distills the Discussion; avoid duplicating
+- **Writing the Abstract**: Abstract is the entry point; Conclusion is the exit point
+- **Checklist and Tips**: Overall writing quality checklist

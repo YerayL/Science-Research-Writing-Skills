@@ -1,4 +1,4 @@
-# Unit 2: How to Write about Methods
+# How to Write about Methods
 
 ## Core Idea
 The Methods section must contain enough detail to ensure replicability, but modern information-surfing readers often skip it. The key is to provide sufficient method information so Results and Conclusions make sense — guided by what your target articles do.
@@ -30,7 +30,7 @@ The Methods section must contain enough detail to ensure replicability, but mode
 ## Key Concepts
 - **Replicability is the primary function**: Another researcher should be able to reproduce your work
 - **Supplementary Materials**: Modern papers increasingly place detailed methods in SI — check your target articles for the balance
-- **Methods in the Results section**: Some method information naturally appears in Results (see Unit 3)
+- **Methods in the Results section**: Some method information naturally appears in Results (see Writing about Results)
 - **Section naming varies**: Methods, Materials and Methods, Experimental, Test Methods, Methodology — use the convention of your target journal
 
 ## Language & Writing Skills (Section 2.5)
@@ -52,6 +52,6 @@ The Methods section must contain enough detail to ensure replicability, but mode
 5. Include enough method context in Results for readers who skip the Methods section
 
 ## Connects To
-- **Ch 3 (Results)**: Method details often appear alongside results for readability
-- **Ch 8 (Checklist)**: Planning subsections and subtitles
-- **Ch 0 (Introduction)**: Reverse-engineering strategy applied to methods
+- **Writing about Results**: Method details often appear alongside results for readability
+- **Checklist and Tips**: Planning subsections and subtitles
+- **Writing for a Reader**: Reverse-engineering strategy applied to methods

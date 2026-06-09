@@ -38,4 +38,4 @@ Science research writing is not about presenting information — it's about wrap
 
 ## Connects To
 - **All Units**: The reverse-engineering strategy is applied to each section of the paper
-- **Ch 8 (Checklist)**: Summarises the writing principles and common errors from all units
+- **Checklist and Tips**: Summarises the writing principles and common errors from all sections

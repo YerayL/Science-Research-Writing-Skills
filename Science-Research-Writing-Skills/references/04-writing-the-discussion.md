@@ -1,4 +1,4 @@
-# Unit 4: How to Write the Discussion
+# How to Write the Discussion
 
 ## Core Idea
 The Discussion widens from your specific results back to the broader context. It maps your findings onto the existing literature, explores implications, and identifies the achievement and contribution of your study. It is the mirror image of the Introduction.
@@ -59,6 +59,6 @@ appear at the start, end, or throughout the Discussion.
 6. End with contribution/impact/applications — this is the "get out" that mirrors the Introduction's "get in"
 
 ## Connects To
-- **Ch 1 (Introduction)**: Symmetrical structure — narrows vs. widens, gap vs. resolution
-- **Ch 3 (Results)**: Discussion explores implications of results more deeply
-- **Ch 5 (Conclusion)**: Conclusion distills the Discussion's key messages
+- **Writing the Introduction**: Symmetrical structure — narrows vs. widens, gap vs. resolution
+- **Writing about Results**: Discussion explores implications of results more deeply
+- **Writing the Conclusion**: Conclusion distills the Discussion's key messages

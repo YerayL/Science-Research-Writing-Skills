@@ -1,4 +1,4 @@
-# Unit 6: Writing the Abstract
+# Writing the Abstract
 
 ## Core Idea
 The Abstract is a **high-stakes standalone document**. More people will read the Abstract than the whole paper. It must function independently, engage readers scrolling through titles/abstracts online, and communicate the value of the study quickly and unmistakably.
@@ -8,7 +8,7 @@ The Abstract is a **high-stakes standalone document**. More people will read the
 ### Clarity & Coherence
 - **Explicitly identify your own contribution**: Your familiarity with the study makes it harder to see potential ambiguity. A Present Simple statement may sound like established knowledge when it's actually your finding.
 - **Combine sentence functions**: In a limited word count, a single sentence can establish significance AND identify a gap.
-- **Review linking strategies** from Unit 1 (Section 1.5.2) to ensure smooth flow.
+- **Review linking strategies** from Writing the Introduction to ensure smooth flow.
 
 ### Timing
 - Write the Abstract **last** — it derives from the paper, not the other way around
@@ -59,6 +59,6 @@ The Abstract is a **high-stakes standalone document**. More people will read the
 5. Reverse-engineer Abstracts from your target journal — conventions vary significantly
 
 ## Connects To
-- **Ch 1 (Introduction)**: Similar structure; Introduction is the long form
-- **Ch 5 (Conclusion)**: Abstract and Conclusion both summarise, but Abstract is the entry, Conclusion the exit
-- **Ch 7 (Title)**: Title and Abstract work together for discoverability
+- **Writing the Introduction**: Similar structure; Introduction is the long form
+- **Writing the Conclusion**: Abstract and Conclusion both summarise, but Abstract is the entry, Conclusion the exit
+- **Writing the Title**: Title and Abstract work together for discoverability

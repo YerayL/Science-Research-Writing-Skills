@@ -1,4 +1,4 @@
-# Unit 7: Writing the Title
+# Writing the Title
 
 ## Core Idea
 The title is the most read part of any paper. In the era of information-surfing, a strong title determines whether your paper is found and whether it is read. A poor title may cause your study to be overlooked entirely.
@@ -52,6 +52,6 @@ The title is the most read part of any paper. In the era of information-surfing,
 6. Titles have become more important as online scrolling/searching dominates
 
 ## Connects To
-- **Ch 6 (Abstract)**: Title and Abstract together determine whether the paper is found and read
-- **Ch 8 (Checklist)**: Overall quality checks
-- **Ch 0 (Introduction)**: Reverse-engineering strategy applied to title patterns
+- **Writing the Abstract**: Title and Abstract together determine whether the paper is found and read
+- **Checklist and Tips**: Overall quality checks
+- **Writing for a Reader**: Reverse-engineering strategy applied to title patterns

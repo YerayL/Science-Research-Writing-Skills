@@ -31,13 +31,13 @@ ascribe, assign, associate with, attribute to, be confined to, categorise, class
 
 ## Anti-patterns
 - **Elegant variation**: Don't rotate through synonyms just to avoid repetition — use the most precise verb consistently
-- **Overclaiming**: Don't use "prove" when "suggest" or "indicate" is more accurate (see Certainty Continuum, Ch 3)
+- **Overclaiming**: Don't use "prove" when "suggest" or "indicate" is more accurate (see Certainty Continuum in Writing about Results)
 - **Underclaiming**: Don't use "may suggest" when your evidence clearly "demonstrates"
 
 ## Key Takeaway
 Build your own discipline-specific verb list by mining your target articles — this appendix provides the starting framework.
 
 ## Connects To
-- **Ch 3 (Results)**: The Certainty Continuum — matching verb strength to evidence
-- **Ch 4 (Discussion)**: Modal verbs and hedging
-- **Ch 1 (Introduction)**: Useful words and phrases for each component
+- **Writing about Results**: The Certainty Continuum — matching verb strength to evidence
+- **Writing the Discussion**: Modal verbs and hedging
+- **Writing the Introduction**: Useful words and phrases for each component

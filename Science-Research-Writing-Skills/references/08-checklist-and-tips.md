@@ -1,4 +1,4 @@
-# Unit 8: Checklist and Tips
+# Checklist and Tips
 
 ## Core Idea
 A condensed quality-control checklist that summarises writing issues from the entire book. Use before submission as a final audit.

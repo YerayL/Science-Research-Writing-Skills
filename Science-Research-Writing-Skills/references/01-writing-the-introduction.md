@@ -1,4 +1,4 @@
-# Unit 1: How to Write the Introduction
+# How to Write the Introduction
 
 ## Core Idea
 The Introduction answers three questions: How do writers start? What is included and in what order? How do writers end? It follows a narrowing pattern — from general background to the specific gap your study fills.
@@ -55,6 +55,6 @@ The Introduction answers three questions: How do writers start? What is included
 6. Reverse-engineer 3-5 target Introductions — your model should come from real, successful examples
 
 ## Connects To
-- **Ch 4 (Discussion)**: Introduction and Discussion are symmetrical — the Intro narrows, the Discussion widens
-- **Ch 0 (Introduction chapter)**: The 4-step reverse-engineering strategy is the foundation
-- **Ch 8 (Checklist)**: Planning and ordering information for the Introduction
+- **Writing the Discussion**: Introduction and Discussion are symmetrical — the Intro narrows, the Discussion widens
+- **Writing for a Reader**: The 4-step reverse-engineering strategy is the foundation
+- **Checklist and Tips**: Planning and ordering information for the Introduction

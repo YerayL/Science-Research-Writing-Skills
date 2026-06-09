@@ -1,4 +1,4 @@
-# Unit 3: How to Write about Results
+# How to Write about Results
 
 ## Core Idea
 The Results section is where you present findings AND comment on them — not just a data dump. The narrative wrap is critical here: readers need to know what the data means, not just what it says.
@@ -59,6 +59,6 @@ A critical framework for communicating your level of confidence in causal relati
 6. Problems/issues with results should be stated honestly — builds credibility
 
 ## Connects To
-- **Ch 4 (Discussion)**: Results provide the foundation; Discussion explores implications more deeply
-- **Ch 1 (Introduction)**: Verb tense choices carry the same meaning as in the Introduction
-- **Ch 8 (Checklist)**: Avoiding naked numbers and maintaining narrative
+- **Writing the Discussion**: Results provide the foundation; Discussion explores implications more deeply
+- **Writing the Introduction**: Verb tense choices carry the same meaning as in the Introduction
+- **Checklist and Tips**: Avoiding naked numbers and maintaining narrative

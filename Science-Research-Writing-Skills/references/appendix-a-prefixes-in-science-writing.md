@@ -60,5 +60,5 @@ A reference list of common prefixes in scientific English, with meanings and exa
 Understanding these prefixes provides a systematic way to build and decode scientific vocabulary, especially useful for non-native English speakers.
 
 ## Connects To
-- **Ch 8 (Checklist)**: Consistent vocabulary usage
-- **Ch 2 (Methods)**: Prefixes appear frequently in technical method descriptions
+- **Checklist and Tips**: Consistent vocabulary usage
+- **Writing about Methods**: Prefixes appear frequently in technical method descriptions
