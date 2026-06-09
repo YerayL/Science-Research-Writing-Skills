@@ -102,9 +102,7 @@ cp -r /path/to/Science-Research-Writing-Skills ~/.codex/skills/Science-Research-
 
 ```
 /Science-Research-Writing-Skills
-这是我的引言部分，帮我润色：
-
-[你的草稿文本]
+这是我的引言部分，帮我润色。
 ```
 
 ### ✍️ 根据笔记起草
@@ -121,18 +119,14 @@ cp -r /path/to/Science-Research-Writing-Skills ~/.codex/skills/Science-Research-
 
 ```
 /Science-Research-Writing-Skills
-审阅我的讨论部分：
-
-[你的草稿文本]
+审阅我的讨论部分。
 ```
 
 ### 🧪 逆向工程目标期刊文章
 
 ```
 /Science-Research-Writing-Skills
-分析这篇 Nature Materials 论文的引言：
-
-[粘贴已发表文章的引言]
+分析这篇 Nature Materials 论文的引言。
 ```
 
 ### 🗺️ 互动指导
@@ -142,7 +136,7 @@ cp -r /path/to/Science-Research-Writing-Skills ~/.codex/skills/Science-Research-
 帮我写摘要。我的论文是关于……
 ```
 
-> 💡 **提示**：你也可以用简写——只需描述你的需求并粘贴文本，助手会自动匹配正确的模式。
+> 💡 **提示**：你也可以用简写——只需描述你的需求，助手会自动匹配正确的模式。
 
 ---
 

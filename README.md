@@ -102,9 +102,7 @@ Invoke the skill with `/Science-Research-Writing-Skills` followed by your reques
 
 ```
 /Science-Research-Writing-Skills
-Here's my Introduction — polish it:
-
-[your draft text]
+Here's my Introduction — polish it.
 ```
 
 ### ✍️ Draft from Notes
@@ -121,18 +119,14 @@ Write the Results section. Here's what we found:
 
 ```
 /Science-Research-Writing-Skills
-Review my Discussion section:
-
-[your draft text]
+Review my Discussion section.
 ```
 
 ### 🧪 Reverse-Engineer a Target Article
 
 ```
 /Science-Research-Writing-Skills
-Analyze this Introduction from a Nature Materials paper:
-
-[paste the Introduction text from the published article]
+Analyze this Introduction from a Nature Materials paper.
 ```
 
 ### 🗺️ Interactive Guide
@@ -142,7 +136,7 @@ Analyze this Introduction from a Nature Materials paper:
 Help me write my Abstract. My paper is about...
 ```
 
-> 💡 **Pro tip**: You can also use shorthand — just describe what you need and paste your text. The assistant figures out the right mode.
+> 💡 **Pro tip**: You can also use shorthand — just describe what you need. The assistant figures out the right mode.
 
 ---
 
