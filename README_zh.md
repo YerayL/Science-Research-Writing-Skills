@@ -57,7 +57,7 @@ cp -r /path/to/Science-Research-Writing-Skills ~/.claude/skills/Science-Research
 ```bash
 # Windows (PowerShell) — 将 <path> 替换为你的项目位置
 $path = "<path>\Science-Research-Writing-Skills"
-Copy-Item -Recurse $path "$env:APPDATA\CodeX\skills\Science-Research-Writing-Skills"
+Copy-Item -Recurse $path "$env:USERPROFILE\.codex\skills\Science-Research-Writing-Skills"
 
 # macOS / Linux
 cp -r /path/to/Science-Research-Writing-Skills ~/.codex/skills/Science-Research-Writing-Skills

@@ -57,7 +57,7 @@ Copy the project folder to your CodeX skills directory:
 ```bash
 # Windows (PowerShell) — replace <path> with your project location
 $path = "<path>\Science-Research-Writing-Skills"
-Copy-Item -Recurse $path "$env:APPDATA\CodeX\skills\Science-Research-Writing-Skills"
+Copy-Item -Recurse $path "$env:USERPROFILE\.codex\skills\Science-Research-Writing-Skills"
 
 # macOS / Linux
 cp -r /path/to/Science-Research-Writing-Skills ~/.codex/skills/Science-Research-Writing-Skills
