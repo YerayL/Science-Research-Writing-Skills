@@ -18,25 +18,25 @@ The Introduction answers three questions: How do writers start? What is included
 - Component 3 (the GAP) may be implicit — the motivation may simply be to extend previous research
 - Background facts in Present Simple occur wherever the author considers necessary
 
-## Language & Writing Skills (Section 1.5)
+## Language & Writing Skills
 
 ### Verb Tense Choices
 - **Present Simple** — accepted/established facts, background knowledge, what the paper does
 - **Past Simple** — what previous researchers did/found (specific, dated events)
 - **Present Perfect** — links past research to current situation (have investigated, has been shown)
 
-### Linking Sentences (Section 1.5.2)
+### Linking Sentences
 - **Connector words**: However, Therefore, In addition, Furthermore, Consequently, Moreover
 - **Repetition linkage**: Repeat a key word from the previous sentence's end at the start of the next
 - **This/These + noun**: "This approach…", "These findings…" — the most common linkage technique
 - **Signal words**: problem, issue, challenge, gap, limitation, question, opportunity
 
-### Passive/Active (Section 1.5.3)
+### Passive/Active
 - Use **active voice** to describe what YOU did (We investigated…)
 - Use **passive voice** when the agent is unknown/unimportant or to focus on the result
 - **Avoid**: switching randomly between active and passive — be consistent and intentional
 
-## Useful Words & Phrases (Section 1.4)
+## Useful Words & Phrases
 - **Establishing significance**: plays a key role in, is a major factor in, has received much attention
 - **Identifying gaps**: however, although, little is known, remains unclear, has not been fully defined
 - **Describing the present paper**: this paper presents, here we describe, the aim of this study is to, we propose

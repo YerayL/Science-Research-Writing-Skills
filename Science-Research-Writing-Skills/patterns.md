@@ -46,7 +46,7 @@ Each pattern below includes: **when to trigger it**, **step-by-step instructions
 
 **How to apply**:
 1. **Build the model**: Ask the user for 3-5 target articles in their field/journal. If they don't have them, use the generic model for their section. Help them identify sentence functions.
-2. **Mine vocabulary**: From the target articles or the chapter files, extract vocabulary for each function needed.
+2. **Mine vocabulary**: From the target articles or the reference files, extract vocabulary for each function needed.
 3. **Master grammar**: Identify the verb tense choices, passive/active patterns, and linking strategies used. Explain each choice's communicative function.
 4. **Reinforce**: Remind the user to update their model as they read more papers in their field.
 
@@ -197,7 +197,7 @@ For each claim in the Results/Discussion, run this audit:
 3. Identify the dominant pattern
 4. Map the user's paper onto this pattern
 5. Verify: does the title's promise match what the paper actually delivers?
-6. Check against the Title Quality Checklist (Chapter 7):
+6. Check against the Title Quality Checklist (see Writing the Title):
    - Keywords present?
    - Acronyms justified?
    - Unambiguous?

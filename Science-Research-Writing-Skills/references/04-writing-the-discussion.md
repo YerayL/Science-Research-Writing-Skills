@@ -37,7 +37,7 @@ appear at the start, end, or throughout the Discussion.
 | Identify a gap/problem | Discuss to what extent you resolved it |
 | Enable reader to enter the central section | Enable reader to exit the paper |
 
-## Language & Writing Skills: Modal Verbs (Section 4.5)
+## Language & Writing Skills: Modal Verbs
 - **may/might/could** → possibility, speculation, lower certainty
 - **should** → expectation, recommendation based on evidence
 - **must** → logical necessity, strong inference

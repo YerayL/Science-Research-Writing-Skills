@@ -25,7 +25,7 @@ The Results section is where you present findings AND comment on them — not ju
 - **Past Simple**: How the information in the graphic was obtained; what the authors found (X occurred)
 - **Tense as confidence signal**: Past Simple reports findings tentatively; Present Simple reflects a belief that findings are permanent truths. Check your target articles for convention.
 
-## The Certainty Continuum (Section 3.5)
+## The Certainty Continuum
 
 A critical framework for communicating your level of confidence in causal relationships:
 

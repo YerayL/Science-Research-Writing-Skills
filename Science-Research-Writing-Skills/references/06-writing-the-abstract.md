@@ -3,7 +3,7 @@
 ## Core Idea
 The Abstract is a **high-stakes standalone document**. More people will read the Abstract than the whole paper. It must function independently, engage readers scrolling through titles/abstracts online, and communicate the value of the study quickly and unmistakably.
 
-## Guidelines (Section 6.1)
+## Guidelines
 
 ### Clarity & Coherence
 - **Explicitly identify your own contribution**: Your familiarity with the study makes it harder to see potential ambiguity. A Present Simple statement may sound like established knowledge when it's actually your finding.
@@ -15,7 +15,7 @@ The Abstract is a **high-stakes standalone document**. More people will read the
 - Writing it too early risks: (1) content that doesn't match the final paper, (2) missing key findings
 - Content, style, and length depend on where you plan to publish
 
-## Types of Abstract (Section 6.2)
+## Types of Abstract
 1. **Simple/Standard Abstracts** — single paragraph, no subheadings
 2. **Structured Abstracts** — with headings (Background/Aims, Methods, Results, Conclusions)
 3. **Abstracts with Significance Statement** — accompanied by a separate statement of impact

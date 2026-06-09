@@ -66,6 +66,4 @@ A condensed quality-control checklist that summarises writing issues from the en
 5. Be explicit about achievement, contribution, and impact — do not assume readers will infer them
 
 ## Connects To
-- **All Units**: This chapter synthesises the key quality checks from every section
-- **Writing Skills Index (p.345)**: Cross-references all topics
-- **Language Index (p.347)**: Cross-references all language points
+- **All sections**: This chapter synthesises the key quality checks from every section

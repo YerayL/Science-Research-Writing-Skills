@@ -33,7 +33,7 @@ The Methods section must contain enough detail to ensure replicability, but mode
 - **Methods in the Results section**: Some method information naturally appears in Results (see Writing about Results)
 - **Section naming varies**: Methods, Materials and Methods, Experimental, Test Methods, Methodology — use the convention of your target journal
 
-## Language & Writing Skills (Section 2.5)
+## Language & Writing Skills
 - **Past Simple** dominates — describing what was done
 - **Passive voice** is common: "Cells were detached…" "RNA was extracted…"
 - **Justification language**: "In order to…", "To this end…", "This approach was chosen because…"

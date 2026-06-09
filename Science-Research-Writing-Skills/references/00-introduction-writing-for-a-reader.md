@@ -37,5 +37,5 @@ Science research writing is not about presenting information — it's about wrap
 5. The 4-step strategy is a lifelong tool: build models → mine vocabulary → master grammar → continually update via reading
 
 ## Connects To
-- **All Units**: The reverse-engineering strategy is applied to each section of the paper
+- **All sections**: The reverse-engineering strategy is applied to each section of the paper
 - **Checklist and Tips**: Summarises the writing principles and common errors from all sections

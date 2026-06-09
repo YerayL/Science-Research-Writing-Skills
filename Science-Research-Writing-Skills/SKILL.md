@@ -1,6 +1,6 @@
 ---
 name: Science-Research-Writing-Skills
-description: "Active writing assistant for STEMM research papers. Based on Glasman-Deal's \"Science Research Writing\" (2nd Ed.). Use when writing, drafting, revising, or reviewing any section of a research paper — provide your draft text, raw notes, results data, or just the section you need to write, and this skill will produce improved text, structured drafts, or diagnostic reviews applying the book's frameworks."
+description: "Active writing assistant for STEMM research papers, dissertations, and journal manuscripts. Based on Glasman-Deal's \"Science Research Writing\" (2nd Ed., Imperial College Press). Use this skill whenever the user mentions writing, drafting, revising, polishing, or reviewing any section of an academic paper (Abstract, Introduction, Methods, Results, Discussion, Conclusion, Title), talks about journal submission, needs help with academic English or science writing, wants to improve manuscript flow or argument structure, or asks about verb tense, certainty language, or narrative scaffold in research writing. Also triggers for reverse-engineering published articles to build writing models."
 allowed-tools:
   - Read
   - Grep
@@ -35,7 +35,7 @@ When invoked, diagnose what the user needs and switch into the right mode:
 
 **What to do**:
 1. Identify the section type (Introduction, Methods, Results, Discussion, Conclusion, Abstract)
-2. Read the relevant chapter file(s) for detailed guidance
+2. Read the relevant reference file(s) for detailed guidance
 3. Apply the section's generic model — check if all functional components are present
 4. Fix verb tenses per the verb tense strategy
 5. Calibrate certainty language to match evidence strength
@@ -59,7 +59,7 @@ When invoked, diagnose what the user needs and switch into the right mode:
 
 **What to do**:
 1. Identify which section(s) the user needs
-2. Read the relevant chapter file(s)
+2. Read the relevant reference file(s)
 3. Map the user's raw material onto the appropriate generic model components
 4. Draft complete prose following the model's structure
 5. Use appropriate verb tenses, linking strategies, and vocabulary from the book
@@ -80,7 +80,7 @@ When invoked, diagnose what the user needs and switch into the right mode:
 
 **What to do**:
 1. Identify the section type
-2. Read the relevant chapter file(s)
+2. Read the relevant reference file(s)
 3. Audit against the generic model — check for missing components
 4. Audit verb tenses against the verb tense strategy
 5. Audit certainty language against the evidence-verb match
@@ -133,12 +133,38 @@ When invoked, diagnose what the user needs and switch into the right mode:
 **Trigger**: User says "Help me write my [section]" without providing specific content yet
 
 **What to do**:
-1. Read the relevant chapter file(s)
+1. Read the relevant reference file(s)
 2. Present the generic model for that section
 3. Ask the user targeted questions for each component in sequence
 4. As the user provides answers, build up the section incrementally
 5. After all components are collected, output the complete draft
 6. Offer a revision pass
+
+**Output format**:
+```
+## Writing Your [Section Name]
+
+This section follows the generic model with [N] components:
+1. [Component 1 name]
+2. [Component 2 name]
+...
+
+### Step 1: [Component 1 name]
+[Question to the user about what they want to say for this component]
+
+[Wait for user response, then move to Step 2]
+
+### Step 2: [Component 2 name]
+[Question to the user]
+
+...
+
+### Complete Draft
+[After all components collected, output the full section draft here]
+
+---
+Would you like me to revise this draft further?
+```
 
 ---
 
@@ -311,6 +337,6 @@ For deep guidance on a specific section, read the relevant file in `references/`
 
 Ask yourself:
 1. **Am I outputting improved text, or just describing concepts?** → If the latter, switch modes. The primary output should always be the user's writing, improved.
-2. **Did I read the relevant chapter file(s) first?** → Don't rely on the summary in this file alone. Read the chapter for detailed vocabulary, anti-patterns, and examples.
+2. **Did I read the relevant reference file(s) first?** → Don't rely on the summary in this file alone. Read the reference file for detailed vocabulary, anti-patterns, and examples.
 3. **Did I explain WHY I made changes?** → Always annotate revisions with the framework that drove them (e.g., "added evaluative comment per the certainty continuum", "changed to Present Simple — this claim is presented as an established finding").
 4. **Did I flag what's missing?** → If the user's input lacks a component from the generic model, don't silently skip it. Flag it and ask.
