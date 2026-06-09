@@ -37,16 +37,6 @@ Abstract · Introduction · Methods · Results · Discussion · Conclusion · Ti
 
 ### Claude Code
 
-**Method 1: One-click install**
-
-Paste this into Claude Code:
-
-```
-/install-skill <path-to-this-project>
-```
-
-**Method 2: Manual install**
-
 Copy the entire project folder to your Claude Code skills directory:
 
 ```bash
@@ -58,28 +48,9 @@ Copy-Item -Recurse $path "$env:USERPROFILE\.claude\skills\Science-Research-Writi
 cp -r /path/to/Science-Research-Writing-Skills ~/.claude/skills/Science-Research-Writing-Skills
 ```
 
-**Method 3: Symlink (stay up to date)**
-
-```bash
-# macOS / Linux
-ln -s /path/to/Science-Research-Writing-Skills ~/.claude/skills/Science-Research-Writing-Skills
-
-# Windows (PowerShell, as Admin) — replace <path> with your project location
-$target = "<path>\Science-Research-Writing-Skills"
-New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\skills\Science-Research-Writing-Skills" -Target $target
-```
-
 Then restart Claude Code.
 
 ### CodeX
-
-**Method 1: Via the CodeX marketplace**
-
-```
-/extensions install Science-Research-Writing-Skills
-```
-
-**Method 2: Manual install**
 
 Copy the project folder to your CodeX skills directory:
 

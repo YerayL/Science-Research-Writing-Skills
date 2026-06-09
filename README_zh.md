@@ -37,16 +37,6 @@
 
 ### Claude Code
 
-**方式一：一键安装**
-
-在 Claude Code 中输入：
-
-```
-/install-skill <项目文件夹路径>
-```
-
-**方式二：手动安装**
-
 将整个项目文件夹复制到 Claude Code 的 skills 目录：
 
 ```bash
@@ -58,28 +48,9 @@ Copy-Item -Recurse $path "$env:USERPROFILE\.claude\skills\Science-Research-Writi
 cp -r /path/to/Science-Research-Writing-Skills ~/.claude/skills/Science-Research-Writing-Skills
 ```
 
-**方式三：符号链接（保持同步更新）**
-
-```bash
-# macOS / Linux
-ln -s /path/to/Science-Research-Writing-Skills ~/.claude/skills/Science-Research-Writing-Skills
-
-# Windows (PowerShell, 管理员权限) — 将 <path> 替换为你的项目位置
-$target = "<path>\Science-Research-Writing-Skills"
-New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\skills\Science-Research-Writing-Skills" -Target $target
-```
-
 安装后重启 Claude Code。
 
 ### CodeX
-
-**方式一：通过 CodeX 扩展市场**
-
-```
-/extensions install Science-Research-Writing-Skills
-```
-
-**方式二：手动安装**
 
 将项目文件夹复制到 CodeX 的 skills 目录：
 
