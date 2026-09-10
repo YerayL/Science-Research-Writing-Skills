@@ -40,7 +40,7 @@
 将仓库内的 `Science-Research-Writing-Skills/` 子目录复制到 Claude Code 的 skills 目录。`<repository-root>` 指包含本 README 的仓库根目录：
 
 ```bash
-# Windows (PowerShell) — 将 <repository-root> 替换为仓库根目录
+# Windows (PowerShell) — replace <repository-root> with your repository location
 $skillSource = "<repository-root>\Science-Research-Writing-Skills"
 $skillDestination = "$env:USERPROFILE\.claude\skills\Science-Research-Writing-Skills"
 New-Item -ItemType Directory -Force -Path $skillDestination | Out-Null
@@ -58,7 +58,7 @@ cp -R "/path/to/repository/Science-Research-Writing-Skills/." ~/.claude/skills/S
 将仓库内的 `Science-Research-Writing-Skills/` 子目录复制到 CodeX 的 skills 目录。`<repository-root>` 指包含本 README 的仓库根目录：
 
 ```bash
-# Windows (PowerShell) — 将 <repository-root> 替换为仓库根目录
+# Windows (PowerShell) — replace <repository-root> with your repository location
 $skillSource = "<repository-root>\Science-Research-Writing-Skills"
 $skillDestination = "$env:USERPROFILE\.codex\skills\Science-Research-Writing-Skills"
 New-Item -ItemType Directory -Force -Path $skillDestination | Out-Null
