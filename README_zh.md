@@ -37,30 +37,36 @@
 
 ### Claude Code
 
-将整个项目文件夹复制到 Claude Code 的 skills 目录：
+将仓库内的 `Science-Research-Writing-Skills/` 子目录复制到 Claude Code 的 skills 目录。`<repository-root>` 指包含本 README 的仓库根目录：
 
 ```bash
-# Windows (PowerShell) — 将 <path> 替换为你的项目位置
-$path = "<path>\Science-Research-Writing-Skills"
-Copy-Item -Recurse $path "$env:USERPROFILE\.claude\skills\Science-Research-Writing-Skills"
+# Windows (PowerShell) — 将 <repository-root> 替换为仓库根目录
+$skillSource = "<repository-root>\Science-Research-Writing-Skills"
+$skillDestination = "$env:USERPROFILE\.claude\skills\Science-Research-Writing-Skills"
+New-Item -ItemType Directory -Force -Path $skillDestination | Out-Null
+Copy-Item -Recurse -Force "$skillSource\*" $skillDestination
 
 # macOS / Linux
-cp -r /path/to/Science-Research-Writing-Skills ~/.claude/skills/Science-Research-Writing-Skills
+mkdir -p ~/.claude/skills/Science-Research-Writing-Skills
+cp -R "/path/to/repository/Science-Research-Writing-Skills/." ~/.claude/skills/Science-Research-Writing-Skills/
 ```
 
 安装后重启 Claude Code。
 
 ### CodeX
 
-将项目文件夹复制到 CodeX 的 skills 目录：
+将仓库内的 `Science-Research-Writing-Skills/` 子目录复制到 CodeX 的 skills 目录。`<repository-root>` 指包含本 README 的仓库根目录：
 
 ```bash
-# Windows (PowerShell) — 将 <path> 替换为你的项目位置
-$path = "<path>\Science-Research-Writing-Skills"
-Copy-Item -Recurse $path "$env:USERPROFILE\.codex\skills\Science-Research-Writing-Skills"
+# Windows (PowerShell) — 将 <repository-root> 替换为仓库根目录
+$skillSource = "<repository-root>\Science-Research-Writing-Skills"
+$skillDestination = "$env:USERPROFILE\.codex\skills\Science-Research-Writing-Skills"
+New-Item -ItemType Directory -Force -Path $skillDestination | Out-Null
+Copy-Item -Recurse -Force "$skillSource\*" $skillDestination
 
 # macOS / Linux
-cp -r /path/to/Science-Research-Writing-Skills ~/.codex/skills/Science-Research-Writing-Skills
+mkdir -p ~/.codex/skills/Science-Research-Writing-Skills
+cp -R "/path/to/repository/Science-Research-Writing-Skills/." ~/.codex/skills/Science-Research-Writing-Skills/
 ```
 
 ---
@@ -115,22 +121,23 @@ cp -r /path/to/Science-Research-Writing-Skills ~/.codex/skills/Science-Research-
 
 ```
 Science-Research-Writing-Skills/
-├── SKILL.md                    # 主技能定义 + 操作指令
-├── cheatsheet.md               # 快速审计清单 + 修复指南
-├── patterns.md                 # 8 种写作模式及操作步骤
-├── glossary.md                 # 关键术语定义
-├── references/                 # 详细参考文件（按需读取）
-│   ├── 00-introduction-writing-for-a-reader.md
-│   ├── 01-writing-the-introduction.md
-│   ├── 02-writing-about-methods.md
-│   ├── 03-writing-about-results.md
-│   ├── 04-writing-the-discussion.md
-│   ├── 05-writing-the-conclusion.md
-│   ├── 06-writing-the-abstract.md
-│   ├── 07-writing-the-title.md
-│   ├── 08-checklist-and-tips.md
-│   ├── appendix-a-prefixes-in-science-writing.md
-│   └── appendix-b-research-verbs.md
+├── Science-Research-Writing-Skills/
+│   ├── SKILL.md                    # 主技能定义 + 操作指令
+│   ├── cheatsheet.md               # 快速审计清单 + 修复指南
+│   ├── patterns.md                 # 8 种写作模式及操作步骤
+│   ├── glossary.md                 # 关键术语定义
+│   └── references/                 # 详细参考文件（按需读取）
+│       ├── 00-introduction-writing-for-a-reader.md
+│       ├── 01-writing-the-introduction.md
+│       ├── 02-writing-about-methods.md
+│       ├── 03-writing-about-results.md
+│       ├── 04-writing-the-discussion.md
+│       ├── 05-writing-the-conclusion.md
+│       ├── 06-writing-the-abstract.md
+│       ├── 07-writing-the-title.md
+│       ├── 08-checklist-and-tips.md
+│       ├── appendix-a-prefixes-in-science-writing.md
+│       └── appendix-b-research-verbs.md
 ├── README.md                   # 英文说明
 └── README_zh.md                # 本文件
 ```
